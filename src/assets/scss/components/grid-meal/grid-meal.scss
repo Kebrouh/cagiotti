@@ -1,0 +1,192 @@
+.grid-meal{
+    position: relative;
+    width: 100%;
+    
+    &>.grid{
+        @include setFlex(row, space-around, start);
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+
+        &>.groupe1{
+            width: 20%;
+
+            //temporaire !!!
+            background-color: cadetblue;
+
+            &>.meal1{
+                position: relative;
+                width: 100%;
+
+                &>h3{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                &>.wrapImg{
+                    width: 100%;
+
+                    &>img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+            &>.meal2{
+                position: relative;
+                width: 100%;
+
+                &>h3{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                &>.wrapImg{
+                    width: 100%;
+
+                    &>img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        &>.groupe2{
+            width: 20%;
+            
+            //temporaire !!!
+            background-color: coral;
+
+            &>.meal1{
+                position: relative;
+                width: 100%;
+
+                &>h3{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                &>.wrapImg{
+                    width: 100%;
+
+                    &>img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+            &>.meal2{
+                position: relative;
+                width: 100%;
+
+                &>h3{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                &>.wrapImg{
+                    width: 100%;
+
+                    &>img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        &>.groupe3{
+            width: 20%;
+
+            //temporaire !!!
+            background-color: cadetblue;
+
+            &>.meal1{
+                position: relative;
+                width: 100%;
+
+                &>h3{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                &>.wrapImg{
+                    width: 100%;
+
+                    &>img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+            &>.meal2{
+                position: relative;
+                width: 100%;
+
+                &>h3{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                &>.wrapImg{
+                    width: 100%;
+
+                    &>img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        &>.groupe4{
+            width: 20%;
+
+            //temporaire !!!
+            background-color: coral;
+
+            &>.meal1{
+                position: relative;
+                width: 100%;
+
+                &>h3{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                &>.wrapImg{
+                    width: 100%;
+
+                    &>img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+            &>.meal2{
+                position: relative;
+                width: 100%;
+
+                &>h3{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                &>.wrapImg{
+                    width: 100%;
+
+                    &>img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}

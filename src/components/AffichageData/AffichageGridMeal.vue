@@ -5,19 +5,21 @@
 <template>
 
     <div class="grid-meal">
-
+        <div class="wrapInfo">
+            <p>Choix de repas selon le vendredi du mois à venir</p>
+        </div>
         <div class="grid">
             <div class="groupe1">
                 <h2>1er &amp; 5e vendredi</h2>
                 <div class="meal1">
                     <h3>meal1</h3>
-                    <div class="warpImg">
+                    <div class="wrapImg">
                         <img src="@/assets/img/no-img.png" alt="img-placeholder">
                     </div>
                 </div>
                 <div class="meal2">
                     <h3>meal2</h3>
-                    <div class="warpImg">
+                    <div class="wrapImg">
                         <img src="@/assets/img/no-img.png" alt="img-placeholder">
                     </div>
                 </div>
@@ -26,13 +28,13 @@
                 <h2>2e vendredi</h2>
                 <div class="meal1">
                     <h3>meal1</h3>
-                    <div class="warpImg">
+                    <div class="wrapImg">
                         <img src="@/assets/img/no-img.png" alt="img-placeholder">
                     </div>
                 </div>
                 <div class="meal2">
                     <h3>meal2</h3>
-                    <div class="warpImg">
+                    <div class="wrapImg">
                         <img src="@/assets/img/no-img.png" alt="img-placeholder">
                     </div>
                 </div>
@@ -41,13 +43,13 @@
                 <h2>3e vendredi</h2>
                 <div class="meal1">
                     <h3>meal1</h3>
-                    <div class="warpImg">
+                    <div class="wrapImg">
                         <img src="@/assets/img/no-img.png" alt="img-placeholder">
                     </div>
                 </div>
                 <div class="meal2">
                     <h3>meal2</h3>
-                    <div class="warpImg">
+                    <div class="wrapImg">
                         <img src="@/assets/img/no-img.png" alt="img-placeholder">
                     </div>
                 </div>
@@ -56,13 +58,13 @@
                 <h2>4e vendredi</h2>
                 <div class="meal1">
                     <h3>meal1</h3>
-                    <div class="warpImg">
+                    <div class="wrapImg">
                         <img src="@/assets/img/no-img.png" alt="img-placeholder">
                     </div>
                 </div>
                 <div class="meal2">
                     <h3>meal2</h3>
-                    <div class="warpImg">
+                    <div class="wrapImg">
                         <img src="@/assets/img/no-img.png" alt="img-placeholder">
                     </div>
                 </div>
