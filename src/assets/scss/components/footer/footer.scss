@@ -1,0 +1,22 @@
+.footer{
+    @include setFlex(row, space-between, center);
+    width: 100%;
+    height: 300px;
+
+    //temporaire !!!
+    background-color: darkolivegreen;
+
+    &>.wrapInfo{
+        margin-left: 50px;
+    }
+
+    &>.wrapLogo{
+        width: 200px;
+        margin-right: 50px;
+
+        &>img{
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
