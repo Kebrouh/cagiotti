@@ -19,7 +19,6 @@
         component wrap info
         <AffichageWrapCommande/>
 
-        component wrap map
         <AffichageWrapMap/>
 
     </div>
