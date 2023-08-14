@@ -1,0 +1,21 @@
+.wrap-map{
+    position: relative;
+    width: 100%;
+
+    &>.wrapInfo{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    &>.wrapImg{
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+
+        &>img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
