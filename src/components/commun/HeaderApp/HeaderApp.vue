@@ -5,7 +5,9 @@
 <template>
     <div class="header">
 
-        <h3>Header</h3>
+        <div class="wrapLogo">
+            <img src="@/assets/img/no-img.png" alt="logo">
+        </div>
 
     </div>
 </template>

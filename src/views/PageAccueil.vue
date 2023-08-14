@@ -14,7 +14,6 @@
     
     <div class="accueil">
 
-        component grid bouffe
         <AffichageGridMeal/>
 
         component wrap info
