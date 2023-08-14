@@ -5,7 +5,9 @@
 <template>
 
     <div class="grid-meal">
-
+        <div class="wrapInfo">
+            <p>Choix de repas selon le vendredi du mois à venir</p>
+        </div>
         <div class="grid">
             <div class="groupe1">
                 <h2>1er &amp; 5e vendredi</h2>
