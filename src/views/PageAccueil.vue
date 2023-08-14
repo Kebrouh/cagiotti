@@ -1,5 +1,8 @@
 <script setup>
-    // import AccueilSite from '@/components/AccueilSite/AccueilSite.vue'
+    import AffichageGridMeal from '@/components/AffichageData/AffichageGridMeal.vue'
+    import AffichageWrapCommande from '@/components/AffichageData/AffichageWrapCommande.vue'
+    import AffichageWrapMap from '@/components/AffichageData/AffichageWrapMap.vue'
+    
 
     import { onBeforeMount } from 'vue'
     onBeforeMount(() => {
@@ -11,9 +14,14 @@
     
     <div class="accueil">
 
-        placeholder accueil
+        component grid bouffe
+        <AffichageGridMeal/>
 
-        <!-- <AccueilSite /> -->
+        component wrap info
+        <AffichageWrapCommande/>
+
+        component wrap map
+        <AffichageWrapMap/>
 
     </div>
 
