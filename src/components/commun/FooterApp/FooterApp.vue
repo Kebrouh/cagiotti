@@ -16,6 +16,10 @@
             <img src="@/assets/img/no-img.png" alt="logo">
         </div>
 
+        <div class="bgi">
+            <img src="@/assets/img/footer.svg" alt="bgi">
+        </div>
+
     </div>
 </template>
 
