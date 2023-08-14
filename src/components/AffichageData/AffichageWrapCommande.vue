@@ -26,6 +26,7 @@
             console.error("Email failed to send:", error);
         }
     };
+
 </script>
 
 <template>
@@ -33,7 +34,11 @@
     <div class="wrap-commande">
 
         <div class="wrapInfo">
-            
+            <h3>Comment ca marche ?</h3>
+            <p>Explorez la selection de plat ci-dessus</p>
+            <p>Assurez-vous de quels vendredi vous pouvez le commander pour</p>
+            <p>Remplissez le formulaire avec les informations demandées</p>
+            <p>Dans votre message, mentionner quels plats et la quantité désiré</p>
         </div>
 
         <div class="wrapForm">

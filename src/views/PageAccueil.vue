@@ -16,7 +16,6 @@
 
         <AffichageGridMeal/>
 
-        component wrap info
         <AffichageWrapCommande/>
 
         <AffichageWrapMap/>
