@@ -1,0 +1,26 @@
+.wrap-commande{
+    @include setFlex(row, space-around, center);
+    width: 100%;
+    margin-top: 50px;
+    
+    &>.wrapInfo{
+        width: 40%;
+        
+    }
+    
+    &>.wrapForm{
+        width: 40%;
+        
+        &>form{
+            @include setFlex(column, center, center);
+
+            &>*{
+                width: 100%;
+                padding: 5px;
+            }
+            &>textarea{
+                height: 200px;
+            }
+        }
+    }
+}
