@@ -52,6 +52,10 @@
             </form>
         </div>
 
+        <div class="bgi">
+            <img src="@/assets/img/mider.svg" alt="bgi">
+        </div>
+
     </div>
 
 </template>
