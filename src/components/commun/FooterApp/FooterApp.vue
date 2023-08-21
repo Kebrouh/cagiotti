@@ -13,11 +13,11 @@
         </div>
 
         <div class="wrapLogo">
-            <img src="@/assets/img/no-img.png" alt="logo">
+            <img src="@/assets/img/logo_cagiotti.svg" alt="logo">
         </div>
 
         <div class="bgi">
-            <img src="@/assets/img/footer.svg" alt="bgi">
+            <img src="@/assets/img/footer_v2.svg" alt="bgi">
         </div>
 
     </div>

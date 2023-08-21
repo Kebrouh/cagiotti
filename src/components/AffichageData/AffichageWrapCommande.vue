@@ -53,7 +53,7 @@
         </div>
 
         <div class="bgi">
-            <img src="@/assets/img/mider.svg" alt="bgi">
+            <img src="@/assets/img/mider_v2.svg" alt="bgi">
         </div>
 
     </div>

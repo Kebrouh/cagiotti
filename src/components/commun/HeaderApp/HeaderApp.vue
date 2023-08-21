@@ -6,7 +6,7 @@
     <div class="header">
 
         <div class="wrapLogo">
-            <img src="@/assets/img/no-img.png" alt="logo">
+            <img src="@/assets/img/logo_cagiotti.svg" alt="logo">
         </div>
 
         <div class="bgi">
