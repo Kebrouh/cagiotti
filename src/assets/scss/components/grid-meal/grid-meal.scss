@@ -1,16 +1,23 @@
 .grid-meal{
     position: relative;
     width: 100%;
+    height: auto;
     margin-top: 50px;
+    
+    //temp
+    background-color: fuchsia;
     
     &>.grid{
         @include setFlex(row, space-around, start);
         position: relative;
         margin: 0 auto;
+        padding: 50px 0;
         width: 100%;
 
         &>.groupe1{
-            width: 20%;
+            position: relative;
+            width: 15%;
+            margin-top: 300px;
 
             //temporaire !!!
             background-color: cadetblue;
@@ -55,7 +62,9 @@
             }
         }
         &>.groupe2{
-            width: 20%;
+            position: relative;
+            width: 15%;
+            margin-top: 200px;
             
             //temporaire !!!
             background-color: coral;
@@ -100,7 +109,9 @@
             }
         }
         &>.groupe3{
-            width: 20%;
+            position: relative;
+            width: 15%;
+            margin-top: 100px;
 
             //temporaire !!!
             background-color: cadetblue;
@@ -145,7 +156,9 @@
             }
         }
         &>.groupe4{
-            width: 20%;
+            position: relative;
+            width: 15%;
+            margin-top: 0;
 
             //temporaire !!!
             background-color: coral;
