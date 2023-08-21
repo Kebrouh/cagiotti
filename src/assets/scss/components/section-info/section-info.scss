@@ -1,11 +1,15 @@
 .wrap-commande{
     @include setFlex(row, space-around, center);
+    position: relative;
     width: 100%;
     margin-top: 50px;
+    z-index: 10;
     
+    //temporaire!!!
+    // background-color: rgb(218, 218, 218);
+
     &>.wrapInfo{
         width: 40%;
-        
     }
     
     &>.wrapForm{
@@ -22,5 +26,14 @@
                 height: 200px;
             }
         }
+    }
+
+    &>.bgi{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        transform: translate(0, -50%);
+        z-index: -1;
     }
 }

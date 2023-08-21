@@ -4,7 +4,7 @@
     height: auto;
     
     //temp
-    background-color: rgb(218, 218, 218);
+    // background-color: rgb(218, 218, 218);
     
     &>.grid{
         @include setFlex(row, space-around, start);
@@ -33,7 +33,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 z-index: -1;
-                background-color: fuchsia;
+                background-color: var(--pink);
             }
         
             &>h2{
@@ -113,7 +113,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 z-index: -1;
-                background-color: coral;
+                background-color: var(--green);
             }
 
             &>h2{
@@ -193,7 +193,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 z-index: -1;
-                background-color: cadetblue;
+                background-color: var(--blue);
             }
 
             &>h2{
@@ -273,7 +273,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 z-index: -1;
-                background-color: brown;
+                background-color: var(--yellow);
             }
 
             &>h2{
