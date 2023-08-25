@@ -1,6 +1,8 @@
 <script setup>
     import { ref } from 'vue'; // Import ref from Vue
 
+
+    //EMAIL STUFF HERE
     import emailjs from 'emailjs-com';
 
     emailjs.init("W8eOnwL6GXIH3EinA");

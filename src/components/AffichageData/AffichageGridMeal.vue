@@ -1,5 +1,13 @@
 <script setup>
+    import { ref } from 'vue'; // Import ref from Vue
 
+    //DATE STUFF HERE
+
+    const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+    const currentDate = new Date();
+    const currentDayOfWeek = ref(daysOfWeek[currentDate.getDay()]);
+    const currentNumOfWeek = ref(currentDate.getDay());
 </script>
 
 <template>
@@ -8,6 +16,13 @@
         <div class="wrapInfo">
             <p>Choix de repas selon le vendredi du mois à venir</p>
         </div>
+
+        <!-- temp -->
+        <div>
+            Today is {{ currentDayOfWeek }}
+            Today is {{ currentNumOfWeek }}
+        </div>
+        
         <div class="grid">
             <div class="groupe1">
                 <h2>1er &amp; 5e vendredi</h2>
