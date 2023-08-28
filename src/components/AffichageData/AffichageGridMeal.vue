@@ -1,11 +1,11 @@
 <script setup>
-    import { ref, computed } from 'vue';
+    import { computed } from 'vue';
     import { DateTime } from "luxon";
 
     //DATE STUFF HERE
     
     // Store the launch date as a DateTime instance
-    const launchDate = DateTime.fromISO('2023-08-01')
+    const launchDate = DateTime.fromISO('2023-08-21')
     
     // Get the current date and time as a DateTime instance
     const currentDate = DateTime.local();
@@ -31,7 +31,9 @@
 <!-- truc a installer sur les autres postes : npm install --save luxon -->
 <!-- faire que la class de grid glob décide de l'order des groupes
         ex: grid-0 = 1 2 3 4
-            grid-1 = 2 3 4 1 etc.. -->
+            grid-1 = 2 3 4 1 etc.. 
+
+            a changer dans pemana 430 3330-->
 
 <template>
 
@@ -39,12 +41,6 @@
         <div class="wrapInfo">
             <p>Choix de repas selon le vendredi du mois à venir</p>
         </div>
-
-        <!-- temp -->
-        <!-- <div>
-            Today is {{ currentDayOfWeek }}
-            Today is {{ currentNumOfWeek }}
-        </div> -->
         
         <div class="grid" :class="getClassNumber">
             <div class="groupe1">
