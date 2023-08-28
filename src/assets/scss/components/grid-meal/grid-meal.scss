@@ -13,14 +13,11 @@
         padding: 50px 0;
         width: 100%;
 
+
         &>.groupe1{
             position: relative;
             width: 15%;
-            margin-top: 300px;
             z-index: 10;
-
-            //temporaire !!!
-            // background-color: cadetblue;
 
             &::after{
                 display: block;
@@ -96,11 +93,7 @@
         &>.groupe2{
             position: relative;
             width: 15%;
-            margin-top: 200px;
             z-index: 10;
-            
-            //temporaire !!!
-            // background-color: coral;
 
             &::after{
                 display: block;
@@ -176,11 +169,7 @@
         &>.groupe3{
             position: relative;
             width: 15%;
-            margin-top: 100px;
             z-index: 10;
-
-            //temporaire !!!
-            // background-color: cadetblue;
 
             &::after{
                 display: block;
@@ -256,11 +245,7 @@
         &>.groupe4{
             position: relative;
             width: 15%;
-            margin-top: 0;
             z-index: 10;
-
-            //temporaire !!!
-            // background-color: coral;
 
             &::after{
                 display: block;
@@ -341,56 +326,72 @@
 .grid-0{
     &>.groupe1{
         order: 1;
+        margin-top: 300px;
     }
     &>.groupe2{
         order: 2;
+        margin-top: 200px;
     }
     &>.groupe3{
         order: 3;
+        margin-top: 100px;
     }
     &>.groupe4{
         order: 4;
+        margin-top: 0;
     }
 }
 .grid-1{
     &>.groupe1{
         order: 4;
+        margin-top: 0;
     }
     &>.groupe2{
         order: 1;
+        margin-top: 300px;
     }
     &>.groupe3{
         order: 2;
+        margin-top: 200px;
     }
     &>.groupe4{
         order: 3;
+        margin-top: 100px;
     }
 }
 .grid-2{
     &>.groupe1{
         order: 3;
+        margin-top: 100px;
     }
     &>.groupe2{
         order: 4;
+        margin-top: 0;
     }
     &>.groupe3{
         order: 1;
+        margin-top: 300px;
     }
     &>.groupe4{
         order: 2;
+        margin-top: 200px;
     }
 }
 .grid-3{
     &>.groupe1{
         order: 2;
+        margin-top: 200px;
     }
     &>.groupe2{
         order: 3;
+        margin-top: 100px;
     }
     &>.groupe3{
         order: 4;
+        margin-top: 0;
     }
     &>.groupe4{
         order: 1;
+        margin-top: 300px;
     }
 }
