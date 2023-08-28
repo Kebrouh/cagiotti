@@ -335,3 +335,62 @@
         }
     }
 }
+
+
+
+.grid-0{
+    &>.groupe1{
+        order: 1;
+    }
+    &>.groupe2{
+        order: 2;
+    }
+    &>.groupe3{
+        order: 3;
+    }
+    &>.groupe4{
+        order: 4;
+    }
+}
+.grid-1{
+    &>.groupe1{
+        order: 4;
+    }
+    &>.groupe2{
+        order: 1;
+    }
+    &>.groupe3{
+        order: 2;
+    }
+    &>.groupe4{
+        order: 3;
+    }
+}
+.grid-2{
+    &>.groupe1{
+        order: 3;
+    }
+    &>.groupe2{
+        order: 4;
+    }
+    &>.groupe3{
+        order: 1;
+    }
+    &>.groupe4{
+        order: 2;
+    }
+}
+.grid-3{
+    &>.groupe1{
+        order: 2;
+    }
+    &>.groupe2{
+        order: 3;
+    }
+    &>.groupe3{
+        order: 4;
+    }
+    &>.groupe4{
+        order: 1;
+    }
+}

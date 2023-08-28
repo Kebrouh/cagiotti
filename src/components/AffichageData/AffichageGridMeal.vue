@@ -1,24 +1,37 @@
 <script setup>
-    import { ref } from 'vue'; // Import ref from Vue
+    import { ref, computed } from 'vue';
+    import { DateTime } from "luxon";
 
     //DATE STUFF HERE
+    
+    // Store the launch date as a DateTime instance
+    const launchDate = DateTime.fromISO('2023-08-01')
+    
+    // Get the current date and time as a DateTime instance
+    const currentDate = DateTime.local();
+    
+    // Calculate the difference between current date and launch date
+    const duration = currentDate.diff(launchDate);
+    
+    // Convert the duration to weeks and round down
+    const totalWeeks = Math.floor(duration.as('weeks'));
+    
+    console.log(totalWeeks)
 
-    const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-
-    const currentDate = new Date();
-    const currentDayOfWeek = ref(daysOfWeek[currentDate.getDay()]);
-    const currentNumOfWeek = ref(currentDate.getDay());
-
-    // Function to determine whether a group should move to the back
-    const shouldMoveToBack = (groupNumber) => {
-    if (currentDayOfWeek === 'Monday') {
-        // Calculate new group order based on currentNumOfWeek
-        const newGroupOrder = (groupNumber + currentNumOfWeek - 1) % 4;
-        return newGroupOrder === 0;
-    }
-    return false;
-    };
+    // Computed property to determine the class based on the alternating number
+    const getClassNumber = computed(() => {
+        const classNumber = totalWeeks % 4;
+        return `grid-${classNumber}`;
+    });
+    
 </script>
+
+<!-- USE MODULO -->
+<!-- permet de faire des boucle de passer a travers un tableau sans nécessairement recommencer -->
+<!-- truc a installer sur les autres postes : npm install --save luxon -->
+<!-- faire que la class de grid glob décide de l'order des groupes
+        ex: grid-0 = 1 2 3 4
+            grid-1 = 2 3 4 1 etc.. -->
 
 <template>
 
@@ -28,13 +41,13 @@
         </div>
 
         <!-- temp -->
-        <div>
+        <!-- <div>
             Today is {{ currentDayOfWeek }}
             Today is {{ currentNumOfWeek }}
-        </div>
+        </div> -->
         
-        <div class="grid">
-            <div class="groupe1" :class="{'moveToBack': shouldMoveToBack(1)}">
+        <div class="grid" :class="getClassNumber">
+            <div class="groupe1">
                 <h2>groupe1</h2>
                 <div class="meal1">
                     <h3>meal1</h3>
@@ -49,7 +62,7 @@
                     </div>
                 </div>
             </div>
-            <div class="groupe2" :class="{'moveToBack': shouldMoveToBack(2)}">
+            <div class="groupe2">
                 <h2>groupe2</h2>
                 <div class="meal1">
                     <h3>meal1</h3>
@@ -64,7 +77,7 @@
                     </div>
                 </div>
             </div>
-            <div class="groupe3" :class="{'moveToBack': shouldMoveToBack(3)}">
+            <div class="groupe3">
                 <h2>groupe3</h2>
                 <div class="meal1">
                     <h3>meal1</h3>
@@ -79,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <div class="groupe4" :class="{'moveToBack': shouldMoveToBack(4)}">
+            <div class="groupe4">
                 <h2>groupe4</h2>
                 <div class="meal1">
                     <h3>meal1</h3>
