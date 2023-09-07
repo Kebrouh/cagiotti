@@ -22,15 +22,19 @@
             &::after{
                 display: block;
                 position: absolute;
-                width: 80%;
-                height: 110%;
+                width: 120%;
+                height: 120%;
                 padding: 0;
                 content: "";
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 z-index: -1;
-                background-color: var(--pink);
+                background-image: url("@/assets/img/bg_groupe1.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+
+                // background-color: var(--pink);
             }
         
             &>h2{
@@ -98,15 +102,19 @@
             &::after{
                 display: block;
                 position: absolute;
-                width: 80%;
-                height: 110%;
+                width: 120%;
+                height: 120%;
                 padding: 0;
                 content: "";
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 z-index: -1;
-                background-color: var(--green);
+                background-image: url("@/assets/img/bg_groupe2.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+
+                // background-color: var(--green);
             }
 
             &>h2{
@@ -174,15 +182,19 @@
             &::after{
                 display: block;
                 position: absolute;
-                width: 80%;
-                height: 110%;
+                width: 120%;
+                height: 120%;
                 padding: 0;
                 content: "";
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 z-index: -1;
-                background-color: var(--blue);
+                background-image: url("@/assets/img/bg_groupe3.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+
+                // background-color: var(--blue);
             }
 
             &>h2{
@@ -246,19 +258,23 @@
             position: relative;
             width: 15%;
             z-index: 10;
-
+            
             &::after{
                 display: block;
                 position: absolute;
-                width: 80%;
-                height: 110%;
+                width: 120%;
+                height: 120%;
                 padding: 0;
                 content: "";
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 z-index: -1;
-                background-color: var(--yellow);
+                background-image: url("@/assets/img/bg_groupe4.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+
+                // background-color: var(--yellow);
             }
 
             &>h2{
