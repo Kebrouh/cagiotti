@@ -9,7 +9,22 @@
     // background-color: rgb(218, 218, 218);
 
     &>.wrapInfo{
+        position: relative;
+        top: 200px;
         width: 40%;
+        color: white;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: var(--pink);
+
+        &>h3{
+            font-size: 4em;
+        }
+        &>p{
+            position: relative;
+            left: 1em;
+            font-size: 2em;
+        }
+
     }
     
     &>.wrapForm{
@@ -20,7 +35,9 @@
 
             &>*{
                 width: 100%;
-                padding: 5px;
+                padding: 1em;
+                border-radius: 10px;
+                border: solid 3px var(--green);
             }
             &>textarea{
                 height: 200px;
@@ -30,7 +47,7 @@
 
     &>.bgi{
         position: absolute;
-        top: 50%;
+        top: 85%;
         left: 0;
         right: 0;
         transform: translate(0, -50%);

@@ -39,8 +39,8 @@
 
         <div class="wrapInfo">
             <h3>Comment ca marche ?</h3>
-            <p>Explorez la selection de plat ci-dessus</p>
-            <p>Assurez-vous de quels vendredi vous pouvez le commander pour</p>
+            <p>Explorez la selection de plats ci-dessus</p>
+            <p>Assurez-vous de quels semaines est la courrante</p>
             <p>Remplissez le formulaire avec les informations demandées</p>
             <p>Dans votre message, mentionner quels plats et la quantité désiré</p>
         </div>

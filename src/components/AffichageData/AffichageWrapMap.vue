@@ -9,7 +9,7 @@
             <h3>Pour le ramassage de la commande</h3>
         </div>
         <div class="wrapImg">
-            <img src="@/assets/img/no-img.png" alt="img-placeholder">
+            <img src="@/assets/img/map_v2.svg" alt="img-placeholder">
         </div>
 
     </div>
