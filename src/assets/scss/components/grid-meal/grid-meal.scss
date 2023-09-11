@@ -6,6 +6,19 @@
     
     //temp
     // background-color: rgb(218, 218, 218);
+    &>.wrapInfo{
+        position: absolute;
+        top: 250px;
+        left: 150px;
+        max-width: 300px;
+        z-index: 10;
+        color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: var(--blue);
+        text-align: center;
+        font-size: 3em;
+        font-weight: bold;
+    }
     
     &>.grid{
         @include setFlex(row, space-around, start);

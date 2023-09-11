@@ -39,12 +39,12 @@
 
     <div class="grid-meal">
         <div class="wrapInfo">
-            <p>Choix de repas selon le vendredi du mois à venir</p>
+            <p>Plats pour ce lundi !</p>
         </div>
         
         <div class="grid" :class="getClassNumber">
             <div class="groupe1">
-                <h2>groupe1</h2>
+                <!-- <h2>groupe1</h2> -->
                 <div class="meal1">
                     <h3>meal1</h3>
                     <div class="wrapImg">
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="groupe2">
-                <h2>groupe2</h2>
+                <!-- <h2>groupe2</h2> -->
                 <div class="meal1">
                     <h3>meal1</h3>
                     <div class="wrapImg">
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="groupe3">
-                <h2>groupe3</h2>
+                <!-- <h2>groupe3</h2> -->
                 <div class="meal1">
                     <h3>meal1</h3>
                     <div class="wrapImg">
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <div class="groupe4">
-                <h2>groupe4</h2>
+                <!-- <h2>groupe4</h2> -->
                 <div class="meal1">
                     <h3>meal1</h3>
                     <div class="wrapImg">
