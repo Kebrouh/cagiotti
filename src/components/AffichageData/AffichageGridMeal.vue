@@ -40,6 +40,9 @@
     <div class="grid-meal">
         <div class="wrapInfo">
             <p>Plats pour ce lundi !</p>
+            <div class="wrapImg">
+                <img src="@/assets/img/arrow.svg" alt="arrow">
+            </div>
         </div>
         
         <div class="grid" :class="getClassNumber">
