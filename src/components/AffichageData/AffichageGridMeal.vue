@@ -49,60 +49,60 @@
             <div class="groupe1">
                 <!-- <h2>groupe1</h2> -->
                 <div class="meal1">
-                    <h3>meal1</h3>
+                    <h3>Croquette de morue et pommes de terre servies avec salade de chou et sauce tartare</h3>
                     <div class="wrapImg">
-                        <img src="@/assets/img/no-img.png" alt="img-placeholder">
+                        <img src="@/assets/img/croquette_morue.jpg" alt="img-placeholder">
                     </div>
                 </div>
                 <div class="meal2">
-                    <h3>meal2</h3>
+                    <h3>Bœuf Stroganoff et pommes de terre pilées</h3>
                     <div class="wrapImg">
-                        <img src="@/assets/img/no-img.png" alt="img-placeholder">
+                        <img src="@/assets/img/stroganoff.jpg" alt="img-placeholder">
                     </div>
                 </div>
             </div>
             <div class="groupe2">
                 <!-- <h2>groupe2</h2> -->
                 <div class="meal1">
-                    <h3>meal1</h3>
+                    <h3>Rigatoni à la bolognaise</h3>
                     <div class="wrapImg">
-                        <img src="@/assets/img/no-img.png" alt="img-placeholder">
+                        <img src="@/assets/img/rigatoni.jpg" alt="img-placeholder">
                     </div>
                 </div>
                 <div class="meal2">
-                    <h3>meal2</h3>
+                    <h3>Bœuf braisé au Barolo et légumes poêlés</h3>
                     <div class="wrapImg">
-                        <img src="@/assets/img/no-img.png" alt="img-placeholder">
+                        <img src="@/assets/img/boeuf_braise.jpg" alt="img-placeholder">
                     </div>
                 </div>
             </div>
             <div class="groupe3">
                 <!-- <h2>groupe3</h2> -->
                 <div class="meal1">
-                    <h3>meal1</h3>
+                    <h3>Risotto aux tomates séchées, roquette et chèvre</h3>
                     <div class="wrapImg">
-                        <img src="@/assets/img/no-img.png" alt="img-placeholder">
+                        <img src="@/assets/img/risotto.jpg" alt="img-placeholder">
                     </div>
                 </div>
                 <div class="meal2">
-                    <h3>meal2</h3>
+                    <h3>Tortellini à la sauce rosée</h3>
                     <div class="wrapImg">
-                        <img src="@/assets/img/no-img.png" alt="img-placeholder">
+                        <img src="@/assets/img/tortelini.jpg" alt="img-placeholder">
                     </div>
                 </div>
             </div>
             <div class="groupe4">
                 <!-- <h2>groupe4</h2> -->
                 <div class="meal1">
-                    <h3>meal1</h3>
+                    <h3>Salade de pâtes à la grecque</h3>
                     <div class="wrapImg">
-                        <img src="@/assets/img/no-img.png" alt="img-placeholder">
+                        <img src="@/assets/img/salade_grec.jpg" alt="img-placeholder">
                     </div>
                 </div>
                 <div class="meal2">
-                    <h3>meal2</h3>
+                    <h3>Chili con carne</h3>
                     <div class="wrapImg">
-                        <img src="@/assets/img/no-img.png" alt="img-placeholder">
+                        <img src="@/assets/img/chili.jpg" alt="img-placeholder">
                     </div>
                 </div>
             </div>
