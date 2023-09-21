@@ -40,9 +40,12 @@
         <div class="wrapInfo">
             <h3>Comment ca marche ?</h3>
             <p>Explorez la selection de plats ci-dessus</p>
-            <p>Assurez-vous de quels semaines est la courrante</p>
+            <p class="italic">Les plats de cette semaine sont ceux les plus a gauche</p>
+            <p>Le prix est de <span>11$</span> par portion ou <span>38$</span> pour 4 portions</p>
             <p>Remplissez le formulaire avec les informations demandées</p>
             <p>Dans votre message, mentionner quels plats et la quantité désiré</p>
+            <p>La date limite pour passer une commande est le samedi à <span>12h</span></p>
+            <p>La date de ramassage est le lundi entre <span>14h30</span> et <span>18h30</span></p>
         </div>
 
         <div class="wrapForm">

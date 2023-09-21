@@ -23,6 +23,16 @@
             position: relative;
             left: 1em;
             font-size: 2em;
+
+            &>span{
+                font-weight: bold;
+            }
+        }
+
+        &>.italic{
+            font-style: italic;
+            left: 2em;
+            font-size: 1em;
         }
 
     }
