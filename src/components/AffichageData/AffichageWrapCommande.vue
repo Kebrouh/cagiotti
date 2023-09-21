@@ -40,15 +40,16 @@
         <div class="wrapInfo">
             <h3>Comment ca marche ?</h3>
             <p>Explorez la selection de plats ci-dessus</p>
-            <p class="italic">Les plats de cette semaine sont ceux les plus a gauche</p>
+            <p class="italic">(Les plats de cette semaine sont ceux les plus a gauche)</p>
             <p>Le prix est de <span>11$</span> par portion ou <span>38$</span> pour 4 portions</p>
             <p>Remplissez le formulaire avec les informations demandées</p>
-            <p>Dans votre message, mentionner quels plats et la quantité désiré</p>
+            <p>Dans votre message, mentionner quels plats et la quantité désirée</p>
             <p>La date limite pour passer une commande est le samedi à <span>12h</span></p>
             <p>La date de ramassage est le lundi entre <span>14h30</span> et <span>18h30</span></p>
         </div>
 
         <div class="wrapForm">
+            <h3>Passer votre commande</h3>
             <form @submit.prevent="sendEmail">
                 <input v-model="fullName" type="text" placeholder="Votre nom" required /> <br/>
                 <input v-model="email" type="email" placeholder="Votre courriel" required /> <br/>

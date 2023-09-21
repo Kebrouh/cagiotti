@@ -12,17 +12,30 @@
         position: relative;
         top: 200px;
         width: 40%;
-        color: white;
-        -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color: var(--pink);
+        padding: 1em;
+        background-color: white;
+        border-radius: 10px;
+        border: solid 3px var(--green);
+        font-weight: 100;
+        color: #757575;
+        // color: white;
+        // -webkit-text-stroke-width: 0.5px;
+        // -webkit-text-stroke-color: var(--pink);
 
         &>h3{
-            font-size: 4em;
+            position: absolute;
+            top: -1em;
+            left: 10px;
+            font-size: 3em;
+            font-weight: bold;
+            color: var(--green);
+            // -webkit-text-stroke-width: 1.5px;
+            // -webkit-text-stroke-color: var(--green);
         }
         &>p{
             position: relative;
             left: 1em;
-            font-size: 2em;
+            font-size: 1.5em;
 
             &>span{
                 font-weight: bold;
@@ -31,15 +44,28 @@
 
         &>.italic{
             font-style: italic;
-            left: 2em;
+            line-height: 0;
+            left: 3em;
             font-size: 1em;
         }
 
     }
     
     &>.wrapForm{
+        position: relative;
         width: 40%;
         
+        &>h3{
+            position: absolute;
+            top: -1em;
+            left: 10px;
+            font-size: 3em;
+            font-weight: bold;
+            color: var(--green);
+            // -webkit-text-stroke-width: 1.5px;
+            // -webkit-text-stroke-color: var(--green);
+        }
+
         &>form{
             @include setFlex(column, center, center);
 
