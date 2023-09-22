@@ -1,7 +1,7 @@
 .wrap-map{
     position: relative;
     width: 100%;
-    // top: -150px;
+    top: 475px;
 
     &>.wrapInfo{
         position: absolute;
@@ -11,8 +11,8 @@
         text-align: right;
         font-size: 3em;
         color: white;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: var(--blue);
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
         z-index: 10;
 
         // &::after{
@@ -30,9 +30,11 @@
         
         &>h3{
             font-size: 1em;
+            font-weight: bold;
         }
         &>h2{
             font-size: 1.5em;
+            font-weight: bold;
         }
     }
 

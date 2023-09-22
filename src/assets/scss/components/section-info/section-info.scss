@@ -1,6 +1,6 @@
 .wrap-commande{
     @include setFlex(row, space-around, center);
-    position: relative;
+    position: absolute;
     width: 100%;
     margin-top: 50px;
     z-index: 10;
