@@ -7,9 +7,9 @@
 
         <div class="wrapInfo">
             <h3>Contacts :</h3>
-            <p>email</p>
-            <p>num cell 1</p>
-            <p>num cell 2</p>
+            <p>vente@jeanfrancoisdube.ca</p>
+            <p>514 269-3770</p>
+            <p>450 430-3330</p>
         </div>
 
         <div class="wrapLogo">

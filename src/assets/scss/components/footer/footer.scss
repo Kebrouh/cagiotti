@@ -4,16 +4,26 @@
     // top: -150px;
     width: 100%;
     height: 250px;
+    padding: 0 200px;
     z-index: 1;
 
     //temporaire !!!
     // background-color: darkolivegreen;
 
     &>.wrapInfo{
-        margin-left: 50px;
+        position: absolute;
+        bottom: 100px;
+
+        &>p{
+            position: relative;
+            left: 1em;
+            line-height: 1em;
+        }
     }
 
     &>.wrapLogo{
+        position: absolute;
+        right: 200px;
         width: 200px;
         margin-right: 150px;
 
