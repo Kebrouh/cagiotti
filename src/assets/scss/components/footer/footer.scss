@@ -27,6 +27,9 @@
         bottom: 5px;
         left: 15%;
         
+        @include breakpoint-min(576){
+            bottom: 10px;
+        }
         @include breakpoint-min(992){
             bottom: 25px;
         }
@@ -40,6 +43,16 @@
         &>h3{
             font-size: 0.7em;
             margin: 0;
+
+            @include breakpoint-min(576){
+                font-size: 1em;
+            }
+            @include breakpoint-min(778){
+                font-size: 1.2em;
+            }
+            @include breakpoint-min(1200){
+                font-size: 1.5em;
+            }
         }
 
         &>p{
@@ -53,7 +66,10 @@
                 font-size: 0.75em;
             }
             @include breakpoint-min(778){
-                font-size: 1em;
+                font-size: 0.9em;
+            }
+            @include breakpoint-min(1200){
+                font-size: 1.2em;
             }
         }
     }
