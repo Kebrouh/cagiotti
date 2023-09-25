@@ -4,38 +4,41 @@
     width: 100%;
     margin-top: 50px;
     z-index: 10;
-    display: none;  //TEMP TEMPTEMP TEMPTEMT PETM EPTMEPTMET
-    
-    //temporaire!!!
-    // background-color: rgb(218, 218, 218);
+    // display: none;  //TEMP TEMPTEMP TEMPTEMT PETM EPTMEPTMET
 
     &>.wrapInfo{
         position: relative;
         top: 200px;
         width: 40%;
-        padding: 1em;
+        padding: 1em 1em 0 2em;
         background-color: white;
         border-radius: 10px;
         border: solid 3px var(--green);
         font-weight: 100;
         color: #757575;
-        // color: white;
-        // -webkit-text-stroke-width: 0.5px;
-        // -webkit-text-stroke-color: var(--pink);
 
         &>h3{
             position: absolute;
             top: -1em;
             left: 10px;
-            font-size: 3em;
+            font-size: 2.5em;
             font-weight: bold;
             color: var(--green);
-            // -webkit-text-stroke-width: 1.5px;
-            // -webkit-text-stroke-color: var(--green);
+
+            @include breakpoint-min(776){
+                top: -1.1em;
+                font-size: 1.5em;
+            }
+            @include breakpoint-min(992){
+                top: -1em;
+                font-size: 2em;
+            }
+            @include breakpoint-min(1200){
+                font-size: 2.5em;
+            }
         }
         &>p{
             position: relative;
-            left: 1em;
             font-size: 1.5em;
 
             &>span{
@@ -45,7 +48,6 @@
 
         &>.italic{
             font-style: italic;
-            line-height: 0;
             left: 3em;
             font-size: 1em;
         }
@@ -60,11 +62,9 @@
             position: absolute;
             top: -1em;
             left: 10px;
-            font-size: 3em;
+            font-size: 2.5em;
             font-weight: bold;
             color: var(--green);
-            // -webkit-text-stroke-width: 1.5px;
-            // -webkit-text-stroke-color: var(--green);
         }
 
         &>form{
