@@ -49,7 +49,7 @@
             <div class="groupe1">
                 <!-- <h2>groupe1</h2> -->
                 <div class="meal1">
-                    <h3>Croquette de morue et pommes de terre servies avec salade de chou et sauce tartare</h3>
+                    <h3>Croquette de morue, patates avec salade de chou & sauce tartare</h3>
                     <div class="wrapImg">
                         <img src="@/assets/img/croquette_morue.jpg" alt="img-placeholder">
                     </div>
