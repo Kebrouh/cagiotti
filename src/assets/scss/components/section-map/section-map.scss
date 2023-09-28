@@ -1,7 +1,11 @@
 .wrap-map{
     position: relative;
     width: 100%;
-    margin-top: 475px;
+    margin-top: 100px;
+
+    @include breakpoint-min(992){
+        margin-top: 475px;
+    }
 
     &>.wrapInfo{
         position: absolute;
